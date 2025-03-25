@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class DatosDelUsuario : MonoBehaviour
 {
+    public string nombreUsuario;
+    [SerializeField] int edadUsiario;
+    [SerializeField] float estaturaUsiario;
+    [SerializeField] bool esDonante;
     // Start is called before the first frame update
     void Start()
     {
